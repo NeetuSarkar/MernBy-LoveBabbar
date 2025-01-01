@@ -1,0 +1,14 @@
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+div{
+    border: 1px solid black;
+}
+
+.class2{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}

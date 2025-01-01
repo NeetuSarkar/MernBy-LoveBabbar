@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Plan Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header-text">Simple, transparent Pricing</h1>
+      <p class="header-moto">No contracts. No suprise</p>
+      <div class="package-btn">
+        <button class="monthly package">MONTHLY</button>
+        <button class="yearly">YEARLY</button>
+      </div>
+      <div class="cards-container">
+        <!-- Pro Card -->
+        <div class="card pro-card">
+          <i class="fa-solid fa-bullseye"></i>
+          <h1>Pro</h1>
+          <p class="card-text">
+            Unleash the Power of Your Business with Pro Plan
+          </p>
+          <p class="price-Month">
+            <span id="pro-price" class="price">$34</span>
+            <span class="month-year">per month</span>
+          </p>
+          <hr />
+          <ul class="custom-list">
+            <li>Enahanced Analytics</li>
+            <li>Custom Domain</li>
+            <li>E-commerce Integration</li>
+            <li>Priority Support</li>
+            <li>Advance Security</li>
+          </ul>
+          <button class="pro-button">Get Started</button>
+        </div>
+        <!-- Business Card -->
+        <div class="card business-card">
+          <i class="fa-solid fa-crown"></i>
+          <!-- <h1>Business <span class="best-offer">Best Offer</span></h1> -->
+          <div class="business-header">
+            <h1>Business</h1>
+            <p class="best-offer">Best offer</p>
+          </div>
+          <p class="card-text">
+            Unleash the Power of Your Business with Business Plan
+          </p>
+          <p class="price-Month">
+            <span id="business-price" class="price">$56</span>
+            <span class="month-year">per month</span>
+          </p>
+          <hr />
+          <ul class="custom-list">
+            <li>Enahanced Analytics</li>
+            <li>Custom Domain</li>
+            <li>E-commerce Integration</li>
+            <li>Priority Support</li>
+            <li>Advance Security</li>
+          </ul>
+          <button class="business-button">Get Started</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(110deg, rgb(216, 149, 24), rgb(236, 126, 23));
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  font-size: 30px;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
+p {
+  font-size: 30px;
+  color: gray;
+}
+
+.inc {
+  color: orangered;
+}
+
+.dec {
+  color: rgb(123, 193, 18);
+}

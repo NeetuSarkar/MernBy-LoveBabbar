@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(173, 196, 244);
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+}
+p {
+  text-align: justify;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: rgb(67, 150, 239);
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 30px;
+}
+h3 {
+  color: gray;
+  margin-top: 20px;
+}
+
+.stick {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  background-color: gray;
+  clip-path: polygon(90% 0%, 0%, 90%, 100%, 100%);
+  overflow: hidden;
+}

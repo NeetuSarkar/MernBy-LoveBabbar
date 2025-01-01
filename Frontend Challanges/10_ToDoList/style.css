@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: gray;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff9a3c, #ff6f3c);
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  text-align: center;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+}
+span{
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid green;
+}

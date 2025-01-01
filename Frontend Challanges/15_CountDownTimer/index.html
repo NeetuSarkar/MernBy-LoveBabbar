@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="time">
+          <h2 id="hour">1</h2>
+          <p>Hours</p>
+        </div>
+        <div class="time">
+          <h2 id="minute">59</h2>
+          <p>Minutes</p>
+        </div>
+        <div class="time">
+          <h2 id="second">59</h2>
+          <p>Seconds</p>
+        </div>
+      </div>
+      <div>
+        <button class="startstop" id="startStopBtn" onclick="startStop()">
+          Start
+        </button>
+        <button class="reset" id="reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

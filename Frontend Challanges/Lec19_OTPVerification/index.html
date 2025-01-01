@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Vefiy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="otp-box">
+        <h2>OTP Verification</h2>
+        <p>
+          Please enter the OTP(One-Time-Password) sent to your registered
+          email/phone number to complete your verifiation.
+        </p>
+        <div class="otp-input">
+          <input type="number" maxlength="1" id="first" />
+          <input type="number" maxlength="1" id="second" />
+          <input type="number" maxlength="1" id="third" />
+          <input type="number" maxlength="1" id="fourth" />
+        </div>
+        <div class="otp-status">
+          <p>
+            Remaining time
+            <span class="text-highlight" id="countdown">05:00</span>
+          </p>
+          <p>
+            Don't got the code?
+            <a href="#" class="text-highlight" id="resend" onclick="resendOTP()"
+              >Resend</a
+            >
+          </p>
+        </div>
+        <p class="message" id="message"></p>
+        <button class="button button-highlight" onclick="verifyOTP()">
+          Verify
+        </button>
+        <button class="button">Cancle</button>
+      </div>
+      <p class="footer">
+        Wondering how we use this code for verification?
+        <span class="text-highlight"><a href="#">Know here</a></span>
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
